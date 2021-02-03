@@ -13,7 +13,7 @@ import Navbar from './components/Navbar';
 import GlobalFonts from './assets/fonts/fonts';
 const App = () => (
   <Provider store={store}>
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <I18nextProvider i18n={i18n}>
         <GlobalFonts />
         <Router />
