@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.aa35a0d4.chunk.css",
-    "main.js": "/portfolio/static/js/main.aa5eb04d.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.aa5eb04d.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.c3f45607.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.c3f45607.js.map",
-    "static/js/2.05285842.chunk.js": "/portfolio/static/js/2.05285842.chunk.js",
-    "static/js/2.05285842.chunk.js.map": "/portfolio/static/js/2.05285842.chunk.js.map",
-    "static/js/3.a7a09aa4.chunk.js": "/portfolio/static/js/3.a7a09aa4.chunk.js",
-    "static/js/3.a7a09aa4.chunk.js.map": "/portfolio/static/js/3.a7a09aa4.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.630cf33a.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.630cf33a.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.f6f4ef9e.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.f6f4ef9e.js.map",
+    "static/js/2.a0cfdbba.chunk.js": "/portfolio/static/js/2.a0cfdbba.chunk.js",
+    "static/js/2.a0cfdbba.chunk.js.map": "/portfolio/static/js/2.a0cfdbba.chunk.js.map",
+    "static/js/3.b2b455d8.chunk.js": "/portfolio/static/js/3.b2b455d8.chunk.js",
+    "static/js/3.b2b455d8.chunk.js.map": "/portfolio/static/js/3.b2b455d8.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/main.aa35a0d4.chunk.css.map": "/portfolio/static/css/main.aa35a0d4.chunk.css.map",
-    "static/js/2.05285842.chunk.js.LICENSE.txt": "/portfolio/static/js/2.05285842.chunk.js.LICENSE.txt",
+    "static/js/2.a0cfdbba.chunk.js.LICENSE.txt": "/portfolio/static/js/2.a0cfdbba.chunk.js.LICENSE.txt",
     "static/media/Lato-Regular.9919edff.ttf": "/portfolio/static/media/Lato-Regular.9919edff.ttf",
     "static/media/angular.2a94d7a4.png": "/portfolio/static/media/angular.2a94d7a4.png",
     "static/media/mongo.9d379f8d.png": "/portfolio/static/media/mongo.9d379f8d.png",
@@ -19,9 +19,9 @@
     "static/media/reactive.44319306.png": "/portfolio/static/media/reactive.44319306.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.c3f45607.js",
-    "static/js/2.05285842.chunk.js",
+    "static/js/runtime-main.f6f4ef9e.js",
+    "static/js/2.a0cfdbba.chunk.js",
     "static/css/main.aa35a0d4.chunk.css",
-    "static/js/main.aa5eb04d.chunk.js"
+    "static/js/main.630cf33a.chunk.js"
   ]
 }
