@@ -23,9 +23,12 @@ const IntroBlock = ({ title, content }: IBlock) => {
 
         <S.VideoContentWrapper>
           <S.IconsContainer>
-            <S.HomeIcon />
-            <S.LibraryIcon />
-            <S.LibraryIcon />
+            <a
+              href="https://www.linkedin.com/in/giorgi-matcharashvili-a602711a2/"
+              target="blank"
+            >
+              <S.LinkedIn src="in.png"></S.LinkedIn>
+            </a>
           </S.IconsContainer>
           <S.Name>Giorgi Matcharashvili</S.Name>
           <S.Title>Front End Developer | React Developer</S.Title>

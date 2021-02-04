@@ -1,5 +1,4 @@
 import styled, { css } from 'styled-components';
-import { Home, LibraryBooks, Mouse } from '@styled-icons/material-outlined';
 
 // Styles
 const gradientStyle = css`
@@ -30,13 +29,10 @@ export const IconsContainer = styled.div`
   display: flex;
 `;
 
-export const HomeIcon = styled(Home)`
-  ${sharedIconStyle}
+export const LinkedIn = styled.img`
+  width: 30px;
+  height: 30px;
 `;
-export const LibraryIcon = styled(LibraryBooks)`
-  ${sharedIconStyle}
-`;
-
 export const Name = styled.h1`
   font-size: 50px;
   margin: 0;
@@ -58,7 +54,6 @@ export const Container = styled.div`
   position: relative;
   height: 100%;
   font-family: 'Lato';
-
 `;
 
 export const Video = styled.video`
@@ -78,9 +73,9 @@ export const VideoContentWrapper = styled.div`
   justify-content: center;
   flex-direction: column;
   @media only screen and (max-width: 1024px) {
-    margin-left:75px;
-    h1{
-      font-size:24px;
+    margin-left: 75px;
+    h1 {
+      font-size: 24px;
     }
   }
 `;
