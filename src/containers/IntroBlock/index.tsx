@@ -10,17 +10,10 @@ interface IBlock {
 
 const IntroBlock = ({ title, content }: IBlock) => {
   const { t } = useTranslation();
-  const [isLoading, setIsLoading] = useState(true);
 
   return (
     <>
-      {isLoading && <LoadScreen />}
       <S.Container>
-        <S.Video autoPlay muted loop onLoadedData={() => setIsLoading(false)}>
-          <source src="MilkyWay1H264.mov" type="video/mp4" />
-          Your browser does not support HTML5 video.
-        </S.Video>
-
         <S.VideoContentWrapper>
           <S.IconsContainer>
             <a

@@ -9,17 +9,6 @@ const gradientStyle = css`
   background-clip: text;
 `;
 
-const sharedIconStyle = css`
-  width: 30px;
-  padding: 15px;
-  transition: all 0.2s ease;
-  &:hover {
-  }
-  &:before {
-    display: initial;
-  }
-  cursor: pointer;
-`;
 
 export const Content = styled.p`
   margin-top: 1.5rem;
@@ -54,6 +43,7 @@ export const Container = styled.div`
   position: relative;
   height: 100%;
   font-family: 'Lato';
+  background:#151515;
 `;
 
 export const Video = styled.video`
