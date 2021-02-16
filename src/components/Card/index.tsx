@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from '../Button';
 import * as S from './styles';
-const Card = ({ title, img, author, description }: any) => {
+const Card = ({ title, img, author, description, url }: any) => {
   return (
     <S.Card>
       <S.CardImage src={img} />
@@ -11,7 +11,11 @@ const Card = ({ title, img, author, description }: any) => {
         <S.CardAuthor>{author}</S.CardAuthor>
       </S.CardBody>
       <S.CardFooter>
-        <Button>Read More</Button>
+        <Button>
+          <S.Link href={url} target="_blank">
+            Read More
+          </S.Link>
+        </Button>
       </S.CardFooter>
     </S.Card>
   );

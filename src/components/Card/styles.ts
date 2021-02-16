@@ -57,4 +57,7 @@ export const CardTitle = styled.h2`
   font-family: 'Montserrat', sans-serif;
   transition: all ease-in 100ms;
 `;
-export const CardButton = styled.a``;
+export const Link = styled.a`
+  text-decoration: none;
+  color: #fff;
+`;
