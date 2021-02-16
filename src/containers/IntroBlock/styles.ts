@@ -39,7 +39,6 @@ export const AboutText = styled.p`
 export const Container = styled.div`
   display: flex;
   width: 100%;
-  background: black;
   position: relative;
   height: 100%;
   font-family: 'Lato';

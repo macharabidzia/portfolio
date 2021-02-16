@@ -18,7 +18,7 @@ export const Wrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   position: relative;
 `;
 export const Image = styled.img`
